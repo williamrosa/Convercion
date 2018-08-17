@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<br />
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+            <div class="panel panel-success" id="panelPrincipal">
+                <div class="panel-heading ">
+                    <center>
+                        <h4>Convertidor</h4>
+                    </center>
+                </div>
+                <div class="panel-body">
+                    <form action="/" method="post">
+                        <center>
+                            <div class="form-group">
+                                <div class="checkbox-inline">
+                                    <label><input type="radio" name="1" value="1" />CM a MTS</label>
+                                </div>
+                                <div class="checkbox-inline">
+                                    <label><input type="radio" name="2" value="2" />MTS a CM</label>
+                                </div>
+                                <div class="checkbox-inline">
+                                    <label><input type="radio" name="3" value="3" />KM a MTS</label>
+                                </div>
+                                <div class="checkbox-inline">
+                                    <label><input type="radio" name="4" value="4" />MTS a KM</label>
+                                </div>
+                            </div>
+                        </center>
+                        <center>
+                            <div class="form-group"><input type="text" class="form-control" name="txtdato" value="" autocomplete="on" placeholder="Digite cantidad." /></div>
+                            <div class="form-group"><input type="submit" class="btn btn-success " name="btn" value="CALCULAR" /></div>
+                        </center>
+                    </form>
+                </div>
+                </div>
+
+
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+</div>
